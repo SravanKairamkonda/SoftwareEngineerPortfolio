@@ -59,7 +59,7 @@ export default function Projects() {
             projectLiveLink="https://flipkart-grid-frontend.vercel.app/"
             projectLink="https://github.com/Rahul1582/NFT-Based-E-Commerce-Website"
           />
-          <ProjectCard
+          {/* <ProjectCard
             projectImage={collab}
             projectName={"LET'S COLLAB"}
             aboutProject={"A Realtime Chatting Application"}
@@ -78,8 +78,8 @@ export default function Projects() {
             }
             projectLiveLink="https://medhub-360.vercel.app/"
             projectLink="https://github.com/Rahul1582/MedHub_360"
-          />
-          <ProjectCard
+          /> */}
+          {/* <ProjectCard
             projectImage={blog}
             projectName={"Bloggers Arena"}
             aboutProject={"A Blogging Website with User Authentication"}
@@ -97,8 +97,8 @@ export default function Projects() {
               "PYTORCH, CNN, SVC, PYTHON, FOURIER AND WAVELET TRANSFORMATIONS, STFT, ENTROPY, FEATURE FUSION"
             }
             projectLink="https://github.com/Rahul1582/Emotion-Recognition-from-Psychological-Signals"
-          />
-          <ProjectCard
+          /> */}
+          {/* <ProjectCard
             projectImage={mtrans}
             projectName={"Machine Translation"}
             aboutProject={
@@ -106,8 +106,10 @@ export default function Projects() {
             }
             techStack={"LSTM, ENCODER-DECODER, ATTENTION MECHANISM"}
             projectLink="https://github.com/Rahul1582/Bloggers-Arena"
-          />
+          /> */}
         </SimpleGrid>
+
+        {/* Blogs Page from here
         <Flex
           direction="row"
           justifyContent="center"
@@ -137,7 +139,7 @@ export default function Projects() {
             aboutProject={"This Blog is about hiding an Image inside an Image"}
             projectLink="https://rahul1582.medium.com/steganography-part-2-ad7452a3ff1"
           />
-        </SimpleGrid>
+        </SimpleGrid> */}
       </Box>
     </Box>
   );
