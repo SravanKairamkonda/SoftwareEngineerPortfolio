@@ -19,35 +19,35 @@ const routes = [
   {
     name: "Home",
     path: "/home",
-    navbarDisplayName: "<Home/>",
+    navbarDisplayName: "Home",
     icon: <Icon as={MdDashboard} width="30px" height="30px" color="inherit" />,
     component: Dashboard
   },
-  {
-    name: "About Me",
-    path: "/about",
-    navbarDisplayName: "<About Me/>",
-    icon: <Icon as={MdPersonPin} width="30px" height="30px" color="inherit" />,
-    component: About
-  },
+  // {
+  //   name: "About Me",
+  //   path: "/about",
+  //   navbarDisplayName: "<About Me/>",
+  //   icon: <Icon as={MdPersonPin} width="30px" height="30px" color="inherit" />,
+  //   component: About
+  // },
   {
     name: "Projects And Blogs",
     path: "/projects",
-    navbarDisplayName: "<Projects And Blogs/>",
+    navbarDisplayName: "Projects And Blogs",
     icon: <Icon as={MdCode} width="30px" height="30px" color="inherit" />,
     component: Projects
   },
-  {
-    name: "Resume",
-    path: "/resume",
-    navbarDisplayName: "<Resume/>",
-    icon: <Icon as={MdBarChart} width="30px" height="30px" color="inherit" />,
-    component: Resume
-  },
+  // {
+  //   name: "Resume",
+  //   path: "/resume",
+  //   navbarDisplayName: "<Resume/>",
+  //   icon: <Icon as={MdBarChart} width="30px" height="30px" color="inherit" />,
+  //   component: Resume
+  // },
   {
     name: "Contact Me",
     path: "/contact",
-    navbarDisplayName: "<Contact/>",
+    navbarDisplayName: "Contact",
     icon: <Icon as={MdContacts} width="30px" height="30px" color="inherit" />,
     component: Contact
   }
