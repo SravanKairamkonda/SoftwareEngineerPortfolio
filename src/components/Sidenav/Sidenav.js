@@ -74,11 +74,14 @@ export default function Sidenav(props) {
             </Skeleton>
           </Flex>
 
+
           <Stack direction="column" mb="30px" mt="20px">
             <Box ps="15px" pe={{ md: "16px", "2xl": "1px" }}>
               <Content routes={routes} />
             </Box>
           </Stack>
+
+
           <Flex
             align="center"
             direction="row"
@@ -87,7 +90,7 @@ export default function Sidenav(props) {
             justifyContent="center"
             alignItems="center"
           >
-            <GitHubButton
+            {/* <GitHubButton
               href="https://github.com/Rahul1582/portfolio-rahulkp"
               data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
               data-icon="octicon-star"
@@ -105,7 +108,7 @@ export default function Sidenav(props) {
               aria-label="Fork Rahul1582/portfolio-rahulkp on GitHub"
             >
               Fork
-            </GitHubButton>
+            </GitHubButton> */}
           </Flex>
         </Flex>
       </Box>
@@ -192,6 +195,7 @@ export function SideNavResponsive(props) {
                   </Skeleton>
                 </Flex>
 
+                {/* Navigation Menu Code */}
                 <Stack direction="column" mb="30px" mt="20px">
                   <Box
                     ps={{ sm: "0px", "2xl": "15px" }}
@@ -200,6 +204,7 @@ export function SideNavResponsive(props) {
                     <Content routes={routes} />
                   </Box>
                 </Stack>
+                
                 <Flex
                   align="center"
                   direction="row"
@@ -208,7 +213,7 @@ export function SideNavResponsive(props) {
                   justifyContent="center"
                   alignItems="center"
                 >
-                  <GitHubButton
+                  {/* <GitHubButton
                     href="https://github.com/Rahul1582/portfolio-rahulkp"
                     data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
                     data-icon="octicon-star"
@@ -226,7 +231,7 @@ export function SideNavResponsive(props) {
                     aria-label="Fork Rahul1582/portfolio-rahulkp on GitHub"
                   >
                     Fork
-                  </GitHubButton>
+                  </GitHubButton> */}
                 </Flex>
               </Flex>
             </Box>
